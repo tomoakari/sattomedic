@@ -6,7 +6,8 @@ import { Upload } from "./Upload";
 
 function App() {
   return (
-    <BrowserRouter basename={process.env.PUBLIC_URL}>
+    //<BrowserRouter basename={process.env.PUBLIC_URL}>
+    <BrowserRouter basename={import.meta.env.VITE_PUBLIC_URL}>
       <div className="App">
         <Link to="/">Home(login)</Link>
         <br />
