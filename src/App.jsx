@@ -8,7 +8,7 @@ function App() {
   return (
     <BrowserRouter basename={process.env.PUBLIC_URL}>
       <div className="App">
-        <Link to="/">Home</Link>
+        <Link to="/">Home(login)</Link>
         <br />
         <Link to="/Login">login</Link>
         <br />
