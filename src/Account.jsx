@@ -9,7 +9,7 @@ export const Account = () => {
       <h1>受診情報の編集</h1>
       
       <div className='button'>
-        <Link to="/upload">アップロード</Link>
+        <Link to="/upload">保存</Link>
       </div>
       <Footer></Footer>
     </div>

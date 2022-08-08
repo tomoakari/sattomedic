@@ -9,7 +9,7 @@ export const Upload = () => {
       <h1>保険証のアップロード</h1>
       
       <div className='button'>
-        <Link to="/credit">決定</Link>
+        <Link to="/credit">アップロード</Link>
       </div>
       <Footer></Footer>
     </div>
