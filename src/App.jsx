@@ -20,13 +20,6 @@ function App() {
     //<BrowserRouter basename={process.env.PUBLIC_URL}>
     <BrowserRouter basename={import.meta.env.BASE_URL}>
       <div className="App">
-        <Link to="/">top</Link>
-        <br />
-        <Link to="/Login">login</Link>
-        <br />
-        <Link to="/Upload">upload</Link>
-        
-
         
       <Header></Header>
         <Routes>
