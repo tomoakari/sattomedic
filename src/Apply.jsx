@@ -1,11 +1,11 @@
-import './Upload.css'
+import './Apply.css'
 import { Footer } from "./Footer";
 
-export const Upload = () => {
+export const Apply = () => {
   
   return (
     <div className="App">
-      <h1>保険証のアップロード</h1>
+      <h1>受診申し込み</h1>
       <Footer></Footer>
     </div>
   )

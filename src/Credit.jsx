@@ -1,11 +1,11 @@
-import './Upload.css'
+import './Credit.css'
 import { Footer } from "./Footer";
 
-export const Upload = () => {
+export const Credit = () => {
   
   return (
     <div className="App">
-      <h1>保険証のアップロード</h1>
+      <h1>クレジットカードの登録</h1>
       <Footer></Footer>
     </div>
   )

@@ -1,0 +1,16 @@
+.Footer{
+  position: fixed;
+  bottom: 0px;
+  left: 0px;
+  width: 100%;
+  background-color: #ffffff;
+  color: #808080;
+  border-top: #c0c0c0 solid 1px;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
+}
+.Footer > div{
+  border-bottom: #c0c0c0 solid 1px;
+  padding: 10px;
+}

@@ -1,15 +1,12 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import './App.css'
+import './Header.css'
 
-function Header() {
+export const Header = () =>  {
 
   return (
     <div className="Header">
-      <h1>SATTO medic</h1>
+      <h3>SATTO medic</h3>
       <div></div>
     </div>
   )
 }
 
-export default App

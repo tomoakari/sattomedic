@@ -1,11 +1,11 @@
-import './Upload.css'
+import './Pickupway.css'
 import { Footer } from "./Footer";
 
-export const Upload = () => {
+export const Pickupway = () => {
   
   return (
     <div className="App">
-      <h1>保険証のアップロード</h1>
+      <h1>薬の受け取り方</h1>
       <Footer></Footer>
     </div>
   )

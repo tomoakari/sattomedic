@@ -1,7 +1,9 @@
 .Header{
   position: fixed;
   top: 0px;
+  left: 0px;
   width: 100%;
-  padding: 5px;
+  padding: 0px 0px;
   background-color: cadetblue;
+  color: #ffffff;
 }
