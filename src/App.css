@@ -39,3 +39,21 @@
 .read-the-docs {
   color: #888;
 }
+
+/* 共通部品 */
+.button{
+  background-color: darkcyan;
+  width: 100%;
+  padding: 8px;
+  border-radius: 5px;
+  color: #ffffff;
+  box-shadow: 0 1px 3px #888;
+}
+
+.subbutton{
+  width: 100%;
+  padding: 8px;
+  border-radius: 5px;
+  border: solid 1px darkcyan;
+  color: darkcyan;
+}
