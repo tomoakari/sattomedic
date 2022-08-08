@@ -1,6 +1,6 @@
 import { BrowserRouter, Link, Routes, Route } from "react-router-dom"
 import './Login.css'
-import { Header } from "./Header";
+import { Footer } from "./Footer";
 
 export const Login = () => {
 
