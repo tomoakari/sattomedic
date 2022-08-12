@@ -29,9 +29,11 @@ body {
   display: flex;
   /* place-items: center; */
   min-width: 320px;
-  min-height: 100vh;
+  /* min-height: 100vh; */
   
-  margin: 62px 0px;
+  min-height: calc(100vh - 80px);
+  padding-top: 62px;
+  padding-bottom: 60px;
 }
 
 h1 {
