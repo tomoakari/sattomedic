@@ -1,8 +1,28 @@
-iframe{
+.videowrapper{
     position: fixed;
     top: 0px;
     left: 0px;
     width: 100vw;
     height: 100vh;
-    z-index: 5;
+    z-index: 1;
+    text-align: center;
+    overflow-x: hidden;
+}
+.video{
+    height: 100vh;
+}
+
+
+.clientwrapper{
+  position: fixed;
+  right: 5px;
+  bottom: 5px;
+  z-index: 2;
+  text-align: center;
+  overflow-x: hidden;
+  border-radius: 6px;
+  box-shadow: 0 0 5px #393939;
+}
+.clientvideo{
+    width: 30vw;
 }

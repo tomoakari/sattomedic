@@ -16,16 +16,12 @@ export const Footer = () =>  {
         </Link>
       </div>
       <div>
-        <Link to="/search">
           <img src={searchicon} className="footericon"/>
           <p>SEARCH</p>
-        </Link>
       </div>
       <div>
-        <Link to="/message">
           <img src={envelopeicon} className="footericon"/>
           <p>MESSAGE</p>
-        </Link>
       </div>
       <div>
         <Link to="/account">

@@ -1,12 +1,18 @@
 import { BrowserRouter, Link, Routes, Route } from "react-router-dom"
 import './Videoroom.css'
+import doctorimage from './assets/doctor_full.jpg'
+import clientimage from './assets/woman.jpg'
 
 export const Videoroom = () => {
 
   return (
     <div className="Videoroom">
-      <iframe src="https://conference.aice.cloud/?secret=6a39e4b20e0e057de6f01746fea92f22"></iframe>
-
+      <div className="videowrapper">
+        <img src={doctorimage} className="video"/>
+      </div>
+      <div className="clientwrapper">
+        <img src={clientimage} className="clientvideo"/>
+      </div>
       <div className='fab-long plb'>
         <Link to="/home">退室する</Link>
       </div>
