@@ -1,7 +1,8 @@
 #root {
   max-width: 1280px;
+  width: 100%;
   margin: 0 auto;
-  padding: 2rem;
+  padding: 1rem;
   text-align: center;
 }
 
@@ -43,8 +44,8 @@
 /* 共通部品 */
 .button{
   background-color: darkcyan;
-  width: 100%;
   padding: 8px;
+  text-align: center;
   border-radius: 5px;
   border: solid 1px darkcyan;
   color: #ffffff;
@@ -55,12 +56,58 @@
 }
 
 .subbutton{
-  width: 100%;
   padding: 8px;
+  text-align: center;
   border-radius: 5px;
   border: solid 1px darkcyan;
   color: darkcyan;
 }
 .subbutton a {
   color: darkcyan;
+}
+
+.fab-long{
+  width: fit-content;
+  background-color: darkcyan;
+  padding: 6px 14px;
+  font-size: 14px;
+  text-align: center;
+  border-radius: 30px;
+  border: solid 1px darkcyan;
+  color: #ffffff;
+  box-shadow: 0 1px 4px #393939;
+}
+.fab-long a {
+  color: #ffffff;
+}
+
+.mb-10{
+  margin-bottom: 10px;
+}
+.mb-20{
+  margin-bottom: 20px;
+}
+.mb-30{
+  margin-bottom: 30px;
+}
+.bt{
+  border-top: 1px solid #e0e0e0;
+}
+.pt-1em{
+  padding-top: 1em;
+}
+.bg-blue{
+  background-color: aliceblue;
+}
+.notes{
+  font-size: 10px;
+  color: 808080;
+  margin: 0px;
+  text-align: left;
+}
+.plb{
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  z-index: 10;
 }

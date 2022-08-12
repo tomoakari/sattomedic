@@ -1,0 +1,19 @@
+.Pickupway{
+    text-align: left;
+}
+.selectcard{
+    border-radius: 6px;
+    margin: 5px;
+    border: 1px solid #e0e0e0;
+    padding: 10px;
+}
+h4{
+    margin: 0px;
+}
+table{
+    width: 100%;
+}
+td{
+    color: #393939;
+    font-size: 14px;
+}

@@ -1,0 +1,20 @@
+.coverbg{
+    background: rgba(0, 0, 0, 0.6);
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100vw;
+    height: 100vh;
+    z-index: 5;
+}
+.uploadbuttonarea{
+    background-color: #ffffff;
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    margin: 0px 10px 10px 10px;
+    width: calc(100vw - 20px);
+    z-index: 10;
+    border-radius: 8px;
+}
+

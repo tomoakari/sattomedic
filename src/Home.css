@@ -1,0 +1,20 @@
+.Home{
+  text-align: left;
+}
+.hometab{
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
+  border: 1px solid #808080;
+  padding: 3px;
+}
+.homecontent{
+    border: 1px solid #808080;
+    padding: 3px;
+}
+.homecontent > div{
+    border: 1px solid #808080;
+    border-radius: 3px;
+    margin: 10px 0px;
+    padding: 3px;
+}

@@ -1,17 +1,15 @@
 import { BrowserRouter, Link, Routes, Route } from "react-router-dom"
 import './Videoroom.css'
-import { Footer } from "./Footer";
 
 export const Videoroom = () => {
 
   return (
     <div className="Videoroom">
-      <h1>ビデオ通話</h1>
+      <iframe src="https://conference.aice.cloud/?secret=6a39e4b20e0e057de6f01746fea92f22"></iframe>
 
-      <div className='button'>
-        <Link to="/home">退室</Link>
+      <div className='fab-long plb'>
+        <Link to="/home">退室する</Link>
       </div>
-      <Footer></Footer>
     </div>
   )
 }

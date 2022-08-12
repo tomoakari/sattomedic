@@ -5,11 +5,12 @@ import { Footer } from "./Footer";
 export const Upload = () => {
   
   return (
-    <div className="App">
-      <h1>保険証のアップロード</h1>
-      
-      <div className='button'>
-        <Link to="/credit">アップロード</Link>
+    <div className="Upload">
+      <div className="coverbg"></div>
+      <div className='uploadbuttonarea'>
+        <p className="note">画像をアップロード</p>
+        <p className="bt pt-1em"><Link to="/credit">アップロード</Link></p>
+        <p className="bt pt-1em"><Link to="/credit">あたらしく撮影する</Link></p>
       </div>
       <Footer></Footer>
     </div>

@@ -1,0 +1,19 @@
+.Account{
+    text-align: left;
+}
+.inputwapper1 input{
+    padding: 8px;
+    margin: 2px;
+    font-size: 16px;
+    border-radius: 6px;
+    border: 1px solid #808080;
+    width: calc(100% - 26px);
+}
+.inputwapper2 input{
+    padding: 8px;
+    margin: 2px;
+    font-size: 16px;
+    border-radius: 6px;
+    border: 1px solid #808080;
+    width: calc(50% - 24px);
+} 

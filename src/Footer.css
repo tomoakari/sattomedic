@@ -12,5 +12,18 @@
 }
 .Footer > div{
   border-bottom: #c0c0c0 solid 1px;
-  padding: 10px;
+  padding: 5px;
+  text-align: center;
+  width: 50px;
+}
+.Footer p{
+  font-size: 8px;
+  margin: 0px;
+  line-height: 10px;
+}
+.Footer a{
+  color: #808080;
+}
+.footericon{
+  height: 18px;
 }
