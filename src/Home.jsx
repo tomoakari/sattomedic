@@ -6,7 +6,7 @@ export const Home = () => {
   
   return (
     <div className="Home">
-      <h3>おおたかの森耳鼻科</h3>
+      <h3>東京淡路町耳鼻科</h3>
 
       <div className="hometab">
         <div>メニュー</div>
@@ -22,7 +22,7 @@ export const Home = () => {
           <input type="radio" name="isFirst" value="false"/>再診
           <div>
             <p>前回の診療</p>
-            ○月○日：xxxxxxxxxxxxxxxxxxxxx
+            1月10日：アレルギー性鼻炎の診察および処方
           </div>
         </div>
       </div>

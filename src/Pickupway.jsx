@@ -20,7 +20,7 @@ export const Pickupway = () => {
       <div className="selectcard bg-blue">
         <h4>料金</h4>
         <table>
-          <tr><td>システム利用料</td><td>300円</td></tr>
+          <tr><td>システム利用料</td><td>--</td></tr>
           <tr><td>診療費用</td><td>診療後に確定</td></tr>
         </table>
       </div>

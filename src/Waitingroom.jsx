@@ -13,7 +13,7 @@ export const Waitingroom = () => {
         <img src={doctorimage} className="doctorimage"/>
       </div>
       <div className='button'>
-        <Link to="/videoroom">ビデオ検診ルームに入室</Link>
+        <a href="https://conference.aice.cloud/?secret=6a39e4b20e0e057de6f01746fea92f22" target="_blank">オンライン診察室に入室</a>
       </div>
       <Footer></Footer>
     </div>
